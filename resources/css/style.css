@@ -72,6 +72,12 @@ a {
 
 .headline.image-text {
   border: 1px solid black;
+  background-image: url("../images/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
 }
 
 .stories {
@@ -80,10 +86,26 @@ a {
 
 .earth-spin.image-text {
   border: 1px solid black;
+  background-image: url("../images/img-story-2.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.earth-spin.image-text span {
+    justify-content: center;
 }
 
 .camera.image-text {
   border: 1px solid black;
+  background-image: url("../images/img-story-3.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
 }
 
 .story {
@@ -92,8 +114,20 @@ a {
 
 .cat.image-text {
   border: 1px solid black;
+  background-image: url("../images/img-story-1.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
 }
 
 .news.bites {
   border: 1px solid black;
+}
+
+.storyText {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
