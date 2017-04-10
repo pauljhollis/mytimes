@@ -13,6 +13,14 @@ header {
   background-color: white;
 }
 
+h2 {
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -41,7 +49,7 @@ a {
 
 .container {
   display: flex;
-  padding-top: 100px;
+  padding-top: 120px;
   justify-content: center;
 }
 
@@ -66,7 +74,8 @@ a {
   flex-direction: column;
 }
 
-.headline.image-text {
+.headline {
+ display: flex;
   background-image: url("../images/img-story-main.png");
   font-family: Georgia;
   font-weight: bold;
@@ -74,6 +83,11 @@ a {
   color: white;
   height: 300px;
   justify-content: center;
+  align-items: center;
+}
+
+.headline span {
+  padding-left: 15px;
 }
 
 .stories {
@@ -81,7 +95,7 @@ a {
   justify-content: space-between;
 }
 
-.earth-spin.image-text {
+.earth-spin {
   background-image: url("../images/img-story-2.png");
   font-family: Georgia;
   font-weight: bold;
@@ -89,18 +103,18 @@ a {
   color: white;
   height: 300px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
 }
 
-.camera.image-text {
+.camera {
   background-image: url("../images/img-story-3.png");
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
   height: 300px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
 }
 
 .story {
@@ -109,7 +123,7 @@ a {
   width: 300px;
 }
 
-.cat.image-text {
+.cat {
   background-image: url("../images/img-story-1.png");
   font-family: Georgia;
   font-weight: bold;
@@ -117,7 +131,9 @@ a {
   color: white;
   height: 300px;
   text-align: center;
-  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .news.bites h3 {
@@ -132,10 +148,6 @@ a {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-}
-
-.story .storyText {
-  height: 150px;
 }
 
 .news.bites .bite {
@@ -177,4 +189,12 @@ footer {
 footer nav {
   display: inline-block;
   padding-left: 25px;
+}
+
+.imageText {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  align-items: center;
 }
